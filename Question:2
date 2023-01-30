@@ -1,0 +1,20 @@
+grade=input("enter the grade :")
+salary=int(input("enter the salary :"))
+if(grade=='A'):
+    salary=salary*0.05+salary
+    print("your salary bonus is=:",salary)
+elif(salary==0):
+    print("enter a valid salary")
+elif(grade=='C'):
+    print("enter a valid grade")
+elif(salary<0):
+    print("enter a valid number")
+    int(input("enter valid salary"))
+elif(grade=='B'):
+    salary=salary*0.1+salary
+    print("your salary bonus is=:",salary)
+elif(salary<10000):
+    salary=salary*0.02+salary
+    print("your salary bonus is=:",salary)
+else:
+    print("no bonus")        
